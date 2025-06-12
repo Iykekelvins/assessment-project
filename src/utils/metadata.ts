@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 const title = 'The Project';
 const description = 'Frontend Engineering Assessment';
-const url = '';
+const url = 'https://assessment-project-iykekelvins-projects.vercel.app';
 
 export const metaDataOptions: Metadata = {
 	generator: 'Next.js',
@@ -24,12 +24,12 @@ export const metaDataOptions: Metadata = {
 		siteName: 'The Project',
 		images: [
 			{
-				url: '/opengraph-image.jpg',
+				url: '/opengraph-image.png',
 				width: 800,
 				height: 600,
 			},
 			{
-				url: '/opengraph-image.jpg',
+				url: '/opengraph-image.png',
 				width: 1800,
 				height: 1600,
 				alt: 'The Project',
@@ -52,7 +52,7 @@ export const metaDataOptions: Metadata = {
 		title,
 		description,
 		creator: '@iykekelvins',
-		images: ['/twitter-image.jpg'],
+		images: ['/twitter-image.png'],
 	},
 	robots: {
 		index: true,

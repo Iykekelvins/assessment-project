@@ -15,6 +15,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
 	title: 'The Project',
 	description: 'Frontend Engineering Assessment',
+	metadataBase: new URL(
+		'https://assessment-project-iykekelvins-projects.vercel.app'
+	),
 	...metaDataOptions,
 };
 
