@@ -1,10 +1,17 @@
+'use client';
+
+import { useState } from 'react';
+
 import Image from 'next/image';
+import ChatSupport from '@/components/chat-support';
 
 const Hero = () => {
+	const [open, setOpen] = useState(false);
+
 	return (
 		<section>
 			<div className='app-container'>
-				<div className='relative'>
+				<button className='relative' onClick={() => setOpen(true)}>
 					<figure>
 						<Image
 							src={'/images/banner.png'}
@@ -35,8 +42,10 @@ const Hero = () => {
 						<rect x='26' y='4.5' width='9' height='9' rx='4.5' stroke='#EBF0F4' />
 						<circle cx='30.5' cy='9' r='4' fill='#FF5B00' />
 					</svg>
-				</div>
+				</button>
 			</div>
+
+			<ChatSupport open={open} setOpen={setOpen} />
 		</section>
 	);
 };
