@@ -46,8 +46,8 @@
 } */
 
 body {
-	background: var(--background);
-	color: var(--foreground);
+	background: var(--page-bg);
+	color: var(--text-color);
 	font-family: var(--font-poppins);
 	display: flex;
 	flex-direction: column;
