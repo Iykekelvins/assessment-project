@@ -4,7 +4,7 @@ import * as Icons from '@/components/icons';
 
 const Navbar = () => {
 	return (
-		<header className='bg-white sticky top-0 px-4 pt-10 pb-4'>
+		<header className='bg-white sticky top-0 z-50 px-4 pt-10 pb-4'>
 			<nav>
 				<div className='app-container'>
 					<div className='flex items-center justify-between'>
