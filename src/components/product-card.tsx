@@ -17,8 +17,8 @@ const ProductCard: React.FC<ProductCard> = ({
 					width={bestSeller ? 148 : 164}
 					height={bestSeller ? 161 : 112}
 					alt={name}
-					className={`w-full rounded-md ${
-						bestSeller ? 'h-40 md:h-100 object-cover' : ''
+					className={`w-full rounded-md object-cover ${
+						bestSeller ? 'h-40 md:h-100' : 'h-[7rem] md:h-[11.25rem] xl:h-[13.25rem]'
 					}`}
 				/>
 			</figure>

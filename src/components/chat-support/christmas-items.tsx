@@ -8,7 +8,7 @@ const ChristmasItems = () => {
 		<div>
 			<PopupTag name='Christams Items' type='danger' />
 
-			<p className='text-sm text-text-color'>
+			<p className='text-sm text-text-color mt-2'>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 				tempor incididunt ut labore et .
 			</p>

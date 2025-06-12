@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import ChristmasItems from './christmas-items';
 import NextProducts from './next-products';
+import MoreItems from './more-items';
 
 const ChatSupport = ({
 	open,
@@ -50,9 +51,12 @@ const ChatSupport = ({
                         p-2 mt-3 transition-transform duration-300 ease-in-out
                         ${open ? 'scale-100' : 'scale-70'}
                         `}>
-					<div className='bg-[#FFFFFF99] border border-[#FFFFFF80] border-solid rounded-2xl p-4'>
+					<div
+						className='bg-[#FFFFFF99] border border-[#FFFFFF80] border-solid rounded-2xl 
+                            p-4 max-h-[33.875rem] overflow-auto hide-scroll'>
 						<ChristmasItems />
 						<NextProducts />
+						<MoreItems />
 					</div>
 				</div>
 			</div>
