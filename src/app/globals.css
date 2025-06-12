@@ -110,3 +110,9 @@ a {
 	margin-right: auto;
 	max-width: 1282px;
 }
+
+.hide-scroll {
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
