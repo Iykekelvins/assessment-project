@@ -65,6 +65,7 @@ const MoreItems = () => {
 			</ul>
 
 			<div className='flex items-center gap-4 overflow-x-auto hide-scroll mt-2'>
+				{/* I displayed only the first row of products here becuase there are no aseets for the other filter tags */}
 				{[...Array(4)].map((_, i) => (
 					<ProductCard
 						key={i}

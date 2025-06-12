@@ -2,6 +2,7 @@ import Image from 'next/image';
 import ChristmasItems from './christmas-items';
 import NextProducts from './next-products';
 import MoreItems from './more-items';
+import TalkToMe from './talk-to-me';
 
 const ChatSupport = ({
 	open,
@@ -57,6 +58,7 @@ const ChatSupport = ({
 						<ChristmasItems />
 						<NextProducts />
 						<MoreItems />
+						<TalkToMe />
 					</div>
 				</div>
 			</div>
