@@ -35,6 +35,7 @@
 	--color-popup: var(--popup);
 	--color-popup-70: var(--popup-70);
 	--color-border-color: var(--border-color);
+	--breakpoint-des: 75rem;
 }
 
 /* dark theme setup - (if available) */
