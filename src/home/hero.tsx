@@ -11,7 +11,10 @@ const Hero = () => {
 	return (
 		<section>
 			<div className='app-container'>
-				<button className='relative' onClick={() => setOpen(true)}>
+				<button
+					className='relative'
+					onClick={() => setOpen(true)}
+					aria-label='Open popup'>
 					<figure>
 						<Image
 							src={'/images/banner.png'}

@@ -28,7 +28,7 @@ const ChatSupport = ({
 						<Image src={'/popup-icon.svg'} width={40} height={40} alt='popup icon' />
 						<h2 className='text-white text-base font-bold'>Bing Chat Support</h2>
 					</div>
-					<button onClick={() => setOpen(false)}>
+					<button onClick={() => setOpen(false)} aria-label='Close popup'>
 						<svg
 							width='24'
 							height='24'

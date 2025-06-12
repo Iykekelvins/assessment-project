@@ -33,6 +33,7 @@ const Chat = () => {
 			)}
 			<div className='grid'>
 				<button
+					aria-label='Record message'
 					className={`col-start-1 row-start-1 transition-opacity duration-300 ease-in-out ${
 						!record ? 'opacity-100' : 'opacity-0 pointer-events-none'
 					}`}
@@ -40,6 +41,7 @@ const Chat = () => {
 					<Icons.Microphone />
 				</button>
 				<button
+					aria-label='Send message'
 					className={`col-start-1 row-start-1 transition-opacity duration-300 ease-in-out ${
 						message[0] && !record ? 'opacity-100' : 'opacity-0 pointer-events-none'
 					}`}
@@ -47,6 +49,7 @@ const Chat = () => {
 					<Icons.Send />
 				</button>
 				<button
+					aria-label='Stop recording'
 					className={`col-start-1 row-start-1 transition-opacity duration-300 ease-in-out ${
 						record ? 'opacity-100' : 'opacity-0 pointer-events-none'
 					}`}

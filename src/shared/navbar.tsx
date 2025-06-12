@@ -16,10 +16,10 @@ const Navbar = () => {
 						</div>
 
 						<div className='flex items-center gap-6'>
-							<button>
+							<button aria-label='Open profile page'>
 								<Icons.Profile />
 							</button>
-							<button>
+							<button aria-label='Open notifications'>
 								<Icons.Notification />
 							</button>
 
