@@ -5,4 +5,5 @@ interface ProductCard {
 	rating?: number;
 	quantity?: number;
 	bestSeller?: boolean;
+	className?: string;
 }

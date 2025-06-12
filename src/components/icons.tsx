@@ -120,8 +120,6 @@ export const Search = () => {
 		</svg>
 	);
 };
-// export const icons = () => {
-//   return (
-//     <div>icons</div>
-//   )
-// }
+export const icons = () => {
+	return <div>icons</div>;
+};
